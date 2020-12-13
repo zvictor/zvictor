@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 
-👨‍🎨 I'm Victor, a software development enthusiast passioned about elegantly designed, minimalist and useful software! 🎨
+👨‍🎨 I'm Victor, a software development enthusiast passionate about elegantly designed/minimalist software! 🎨
 
 💪 Excited to be working with open source tools that empower developers and focus on **D**eveloper e**X**perience. 💡
 
@@ -25,5 +25,5 @@ Here are some ideas to get you started:
 Fun facts:
 
 * 📈 I often like taking unnecessary risks (e.g. 🪂  6 skydiving jumps)
-* 🇩🇰/🇸🇰 over 7 years living abroad
+* 🇧🇷 → 🇩🇰/🇸🇰 over 7 years living abroad
 * 🏂🏄‍♀️🪁 I sporadically practice wakeboard, snowboard, kitesurfing, or surfing whenever the conditions allow me
