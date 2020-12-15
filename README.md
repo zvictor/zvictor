@@ -16,14 +16,14 @@ Here are some ideas to get you started:
 -->
 
 
-👨‍🎨 I'm Victor, a software development enthusiast passionate about elegantly designed/minimalist software! 🎨
+👨‍🎨 I'm Victor, an open source enthusiast passionate about elegantly designed/minimalist software! 🎨
 
-💪 Excited to be working with open source tools that empower developers and focus on **D**eveloper e**X**perience. 💡
+💪 Excited to be working with tools that empower developers and focus on **D**eveloper e**X**perience. 💡
 
 👨‍🔬 I currently maintain [Faugra](https://github.com/zvictor/faugra) while working as CTO for [Feats](https://feats.co/)! 💼
 
 Fun facts:
 
-* 📈 I often like taking unnecessary risks (e.g. 🪂  6 skydiving jumps)
+* 📈 A bit too often I like taking unnecessary risks (as in my 6 skydiving jumps 🪂)
 * 🇧🇷 → 🇩🇰/🇸🇰 over 7 years living abroad
-* 🏂🏄‍♀️🪁 I sporadically practice wakeboard, snowboard, kitesurfing, or surfing whenever the conditions allow me
+* 🏂🏄‍♀️🪁 As often as the conditions and environment allow me, I try to practice wakeboard, snowboard, kitesurfing, or surfing
