@@ -200,7 +200,8 @@ in
     ];
   };
   home-manager.users.zvictor = { pkgs, ... }: {
-    # home.packages = [ ];
+    # home.packages = with pkgs; [ copyq ];
+
     programs.bash = {
       enable = true;
       bashrcExtra = ''
@@ -218,6 +219,37 @@ in
       '';
     };
 
+    programs = {
+      direnv = {
+        enable = true;
+        enableBashIntegration = true;
+        nix-direnv.enable = true;
+      };
+    };
+
+    # systemd.user.services.copyq = {
+    #   Unit = {
+    #     Description = "CopyQ, a clipboard manager";
+    #     Documentation = [ "man:copyq(5)" ];
+    #     Wants = [ "graphical-session.target" ];
+    #     Requires = [ "graphical-session.target" ];
+    #     After = [ "graphical-session.target" ];
+    #   };
+
+    #   Service = {
+    #     Type = "simple";
+    #     ExecStart = "${pkgs.copyq}/bin/copyq";
+    #     KillMode = "process";
+    #     KillSignal = "SIGINT";
+    #   };
+
+    #   Install = {
+    #     WantedBy = [
+    #       "graphical-session.target"
+    #     ];
+    #   };
+    # };
+
 
     # The state version is required and should stay at the version you
     # originally installed.
@@ -225,8 +257,6 @@ in
   };
 
   security.polkit.enable = true;
-
-  programs.direnv.enable = true;
 
   # Install firefox.
   programs.firefox.enable = true;
@@ -263,7 +293,7 @@ in
       };
 
       user = {
-        signingKey = "ssh-ed25519 xxxxx";
+        signingKey = "ssh-ed25519 xxx";
         name = "zvictor";
         email = "zvictor@users.noreply.github.com";
       };
@@ -331,6 +361,9 @@ in
     ripgrep
     fzf
     zoxide
+
+    ideogram
+    clipboard-jh
   ];
 
   nixpkgs.config.packageOverrides = pkgs: {
