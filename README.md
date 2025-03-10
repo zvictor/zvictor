@@ -1,4 +1,4 @@
-"Just a tiny 'blip' in a vast universe, lost as fuck, trying to become something"
+"Just a tiny 'blip' in a vast universe"
 
 ### Hello world 🤙
 
